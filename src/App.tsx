@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Heart, Star, Mountain, Sparkles, Camera, Plus, Trash2, Quote, Send, Trees } from 'lucide-react';
+import { Mountain, Plus, Trees } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
 const App = () => {
